@@ -1,0 +1,130 @@
+*{
+    /* border: 1px solid red; */
+    font-family: Arial, sans-serif;
+}
+
+body{
+    display: grid;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: brown;
+}
+
+.signin{
+    display: flex;
+    justify-self: center;
+    justify-content: center;
+    background-color: rgb(242, 207, 161);
+    border: 1px solid lightgray;
+    border-radius: 3px;
+    width: 33%;
+    padding: 20px;
+}
+
+.signinbox{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+h3{
+    display: grid;
+    width: 100%;
+    justify-content: center;
+    color: black;
+    padding-top: 3px;
+    font-weight: bold;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.password{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding-bottom: 5px;
+}
+
+#pass{
+    padding-left: 37px;
+}
+
+button{
+    background-color: orange;
+    color: white;
+    border-radius: 2px;
+    border: 0px;
+    height: 30px;
+}
+
+li{
+    list-style-type: none;
+}
+
+.new{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h4{
+    display: flex;
+    width: 33%;
+    justify-content: center;
+    text-align: center;
+    font-weight: normal;
+    align-items: center;
+}
+
+h4:before {
+    content: "";
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+    height: 2px;
+    background-color: lightgray;
+}
+
+h4:after{
+    content: "";
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+    height: 2px;
+    background-color: lightgray;
+}
+
+.create_account{
+    width: 33%;
+    background-color: rgb(230, 230, 230);
+}
+
+footer {
+    margin-bottom: 0px;
+}
+
+.bottom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(242, 207, 161);
+    margin-top: 20px;
+}
+
+.links_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 20px;
+    width: 33%;
+}
